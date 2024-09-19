@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Carros</title> 
+        <link rel="stylesheet" href="syles.css">
+</head>
+<body>
+    <div class="formu">
+    <h1>Formulario de Carros</h1>
+    <p>por favor completa los campos requeridos </p>
+    <form action="#" method="post">
+       <fieldset>
+        <label for="nombre"> Nombre: 
+            <input type="text" id="nombre" name="nombre" required>
+        </label>
+        <label for="email">Email: 
+            <input type="text" id="email" name="email" required>
+        </label>
+        <label for="edad">Edad:
+            <input type="number" name="edad" mim="13" max="120">
+        </label>
+        <label for="telefono">Telefono:
+            <input type="#" name="telefono" mi="0 0 0 0 0 0 0 0 0 " max="">
+        </label>
+
+        </label>
+       </fieldset>
+       <fieldset>
+        <legend> Le recomendaarias los Carros (requerido)</legend>
+        <label for="definitivamente">
+            <input type="radio" name="tipo-cuenta" class="enlinea" checked>Definitivamente
+        </label>
+        <label for="tal vez"></label>
+            <input type="radio" name="tipo-cuenta" class="enlinea" >Tal vez
+        </label>
+        <label for="no estoy seguro "></label>
+            <input type="radio" name="tipo-cuenta" class="enlinea" >No estoy seguro
+        </label>
+       </fieldset>
+        <label>
+              ¿Qué te gustaría ver mejorado? (Marque todo lo que corresponda)</legend>
+            <input name="prefer" value="front-end-projects" type="checkbox"
+            class="input-checkbox">
+      </label>
+      <input name="prefer" value="front-end-projects" type="checkbox"
+            class="input-checkbox">Visualizacion de datos
+       </label>
+       <label >
+        <input name="prefer" value="front-end-projects" type="checkbox"
+            class="input-checkbox">Cursos de manejos
+       </label>
+       <label >
+        <input name="prefer" value="front-end-projects" type="checkbox"
+            class="input-checkbox">Envios
+       </label>
+       <label >
+        <input name="prefer" value="front-end-projects" type="checkbox"
+            class="input-checkbox">Variedad de carro
+       </label>
+       <label >
+        <input name="prefer" value="front-end-projects" type="checkbox"
+            class="input-checkbox">Mas personal
+            
+       </label>
+       <input name="prefer" value="front-end-projects" type="checkbox"
+            class="input-checkbox">Sala de espera
+       <fieldset>
+          <div>
+        <label for="Comentarios"> Ingresar alguna cosa que podamos mejorar:
+            <textarea id="comments"  class="input-textarea" name="content" cols="30" placeholder="Introduce tu comentario aqui..."></textarea>
+        </div>
+    </label>
+        <input type="submit" value="Enviar">
+
+           </button>
+        </div>
+    </form>
+</body>
+</html>
